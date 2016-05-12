@@ -5,10 +5,14 @@
  */
 
 import React from 'react';
+import Button from '../Button';
 
 export function HomePage() {
   return (
-    <h1>This is the Homepage!</h1>
+  	<div>
+	    <h1>This is the Homepage!</h1>
+	    <Button>Click Me!</Button>
+	</div>
   );
 }
 
